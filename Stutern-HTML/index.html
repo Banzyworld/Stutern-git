@@ -25,10 +25,12 @@
         <br>
     <a href="https://www.aa.com/homePage.do?locale=en_US" id="external link"> American Airlines</a> <br>
     <br>  
+
     <figure>
       <img src="https://as2.ftcdn.net/v2/jpg/02/13/35/23/1000_F_213352392_ZlVVq3RC2UPpJi2fQjil99FZUR0w5REU.jpg" id="image" alt="web developer image" width="1000" height="400">
    <br> <figcaption>Web developer</figcaption>
     </figure><br><br>
+ 
   </section>
   
 </header>
@@ -45,13 +47,15 @@
        <li &nbsp id="country2">Qatar</li>
        <li &nbsp id="country3">Belgium</li>
    </ul>
-   <b>Kindly fill this form</b>
+   <legend>Kindly fill this form</legend>
 
    <form onsubmit="alert ('response submitted')">
-    
+  
 <input  &nbsp type="text"  name="fullname" id="name" placeholder="Full Name"> 
 <input type="email" name="email" id="email" placeholder="Email address"> <br><br>
 <textarea  id="text_area &nbsp" >Feedback...</textarea><br><br>
+<fieldset> 
+  <legend>Tick the options below</legend>
 <label for="gender">Gender:</label>
 <input type="radio" id="gender" name="gender" value="male">male
 <input type="radio" name="gender" id="gender" value="female">female <br>
@@ -61,8 +65,10 @@
 <input type="checkbox" name="hobbies" id="checkbox" value="singing">singing 
 <input type="checkbox" name="hobbies" id="checkbox" value="cooking">cooking <br>
 <br>
+<input type="date" id="pickdate" name="date">  
 <input type="submit"  id="submit_button" value="submit">
-   </form> 
+</fieldset>  
+</form> 
   </main>
 
   <footer id="footer">
@@ -82,4 +88,4 @@
 <p>@Banzyworld, Some rights reserved</p>
 	
 		</footer>
-		<!--HTML figcaption tag ends here-->
+
